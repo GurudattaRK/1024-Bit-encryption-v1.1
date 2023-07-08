@@ -1,4 +1,4 @@
-# Bit-encryption-v1.1
+# 1024-Bit encryption v1.1
 #### _Any algorithm that can be written in assembly should be written in assembly XD_
 
 
