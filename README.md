@@ -2,9 +2,8 @@
 #### _Any algorithm that can be written in assembly should be written in assembly XD_
 
 
-With assembly language's performance and some minor tweaks to my algorithm 
-program now performs on average 25% better than its predecessor!
-
+Using this program you can protect your files by encrypting them & you don't need to enter any password instead you have to use any other file as your password! 
+As long as you keep this "key file" safe with you all your files are safe .
 ## How to use it?
 As you can see this repository has a .exe , .c and .s files.
 I upload all files to make it easier to explore , compile , and run on any operating system using x64 architecture(Intel and AMD)
