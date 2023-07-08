@@ -9,14 +9,14 @@ program now performs on average 25% better than its predecessor!
 As you can see this repository has a .exe , .c and .s files.
 I upload all files to make it easier to explore , compile , and run on any operating system using x64 architecture(Intel and AMD)
 #### For WINDOWS users
-- If you choose C file you can use any C compiler like GCC or Clang to compile and run the file.
+- If you choose C file you can use any 64-bit C compiler like GCC or Clang to compile and run the file.
 - For Assembly file (.s) compiling is exactly same as the C file but make sure you add the compiler flag "-C" while compiling,
 - .exe file is ready to run on any windows platform.
 #### For Linux users
-- This project will only compile & run on your system if you have an INTEL or AMD cpu.
+- This project will only compile & run on your system if you have an INTEL or AMD cpu & a 64-bit compiler.
 - You guys can only choose C file & use any C compiler like GCC or Clang to compile and run the file.
 #### For MacOS users
-- This project will only compile & run on your system if you have an INTEL or AMD cpu.
+- This project will only compile & run on your system if you have an INTEL or AMD cpu & a 64-bit compiler .
 - You guys can only choose C file & use any C compiler like GCC or Clang to compile and run the file.
 
 ## About this project
