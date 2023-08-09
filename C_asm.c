@@ -43,9 +43,9 @@ int main()
             printf("\nError in opening/finding the file %s\n Make sure you have provided the right name with right extension or right path to file\n",keyfile);
             return 0;
         }
-        fseeko64(keyreader,0,SEEK_END);
-        bytes=ftello64(keyreader);
-        fseeko64(keyreader,0,SEEK_SET);
+        fseeko(keyreader,0,SEEK_END);
+        bytes=ftello(keyreader);
+        fseeko(keyreader,0,SEEK_SET);
         if(bytes<128){
             printf("\n%s is too small.For security reasons keyfile's size should be at least 128 bytes.",keyfile);
             return 0;
@@ -62,9 +62,9 @@ int main()
         fread(keys,128,1,keyreader); 
         fclose(keyreader);
 
-        fseeko64(reader,0,SEEK_END);
-        bytecount=ftello64(reader);
-        fseeko64(reader,0,SEEK_SET);
+        fseeko(reader,0,SEEK_END);
+        bytecount=ftello(reader);
+        fseeko(reader,0,SEEK_SET);
         
         h=bytecount%128;
         if(h!=0)
@@ -293,9 +293,9 @@ int main()
             return 0;
         }
 
-        fseeko64(keyreader,0,SEEK_END);
-        bytes=ftello64(keyreader);
-        fseeko64(keyreader,0,SEEK_SET);
+        fseeko(keyreader,0,SEEK_END);
+        bytes=ftello(keyreader);
+        fseeko(keyreader,0,SEEK_SET);
 
         if(bytes<128){
             printf("\n%s is too small.For security reasons keyfile's should be at least 128 bytes.",keyfile);
@@ -313,9 +313,9 @@ int main()
         
         fclose(keyreader);
 
-        fseeko64(reader,0,SEEK_END);
-        bytecount=ftello64(reader);
-        fseeko64(reader,0,SEEK_SET);
+        fseeko(reader,0,SEEK_END);
+        bytecount=ftello(reader);
+        fseeko(reader,0,SEEK_SET);
 
 
         h=bytecount%128;
@@ -523,7 +523,6 @@ int main()
         end = clock();
         time_spent = (double)(end - begin) / CLOCKS_PER_SEC;    
         printf("\n\nDecryption of %llu bytes completed in %f seconds ",bytecount,time_spent);
-        printf("\n\nPress any key to exit\n");
         return 0;
         
     }
