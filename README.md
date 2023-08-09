@@ -3,20 +3,17 @@
 
 
 Using this program you can protect your files by encrypting them & you don't need to enter any password instead you have to use any other file as your password! 
-As long as you keep this "key file" safe with you all your files are safe .
+As long as you keep this "key file" safe with you all your files are safe.
 ## How to use it?
-As you can see this repository has a .exe , .c and .s files.
-I upload all files to make it easier to explore , compile , and run on any operating system using x64 architecture(Intel and AMD)
+This repository has compiled binaries ready to run or .s files if you want to compile the source code yourself.
+I have uploaded all files to make it easier to explore , compile , and run on any operating system using x64 architecture(Intel and AMD)
 #### For WINDOWS users
-- If you choose C file you can use any 64-bit C compiler like GCC or Clang to compile and run the file.
-- For Assembly file (.s) compiling is exactly same as the C file but make sure you add the compiler flag "-C" while compiling,
-- .exe file is ready to run on any windows platform.
+- Windows_asm.exe is an executable ready to run on any windows platform.
+- Windows_asm.s is an assembly file that you can compiled using any C Compiler like GCC or Clang using the command: gcc -C Windows_asm.s -o Windows_asm.exe
 #### For Linux users
-- This project will only compile & run on your system if you have an INTEL or AMD cpu & a 64-bit compiler.
-- You guys can only choose C file & use any C compiler like GCC or Clang to compile and run the file.
-#### For MacOS users
-- This project will only compile & run on your system if you have an INTEL or AMD cpu & a 64-bit compiler .
-- You guys can only choose C file & use any C compiler like GCC or Clang to compile and run the file.
+- Linux_asm is an executable ready to run on any linux platform & make you give it executable permissions before running it.
+- Linux_asm.s is an assembly file that you can compiled using any C Compiler like GCC or Clang using the command: gcc -C Linux_asm.s -o Linux_asm
+
 
 ## About this project
 There's nothing like too much performance XD
