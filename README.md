@@ -15,7 +15,7 @@ C_asm.c is a C file that you compile on any platform using GCC or Clang & the ou
 - Windows_asm.s is an assembly file that you can compiled using any C Compiler like GCC or Clang using the command: gcc -C Windows_asm.s -o Windows_asm.exe
 
 #### For Linux users
-- Linux_asm is an executable ready to run on any linux platform & make you give it executable permissions before running it.
+- Linux_asm is an executable ready to run on any linux platform & make sure you give it executable permissions before running it.
 - Linux_asm.s is an assembly file that you can compiled using any C Compiler like GCC or Clang using the command: gcc -C Linux_asm.s -o Linux_asm
 
 
